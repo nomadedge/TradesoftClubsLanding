@@ -29,24 +29,38 @@ html {
 }
 
 .card-links {
-  margin: 50px;
+  margin: 50px 0px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#speaking-clib-link {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/SpeakingClub.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .card-link {
-  color: black;
-  font-size: large;
+  color: white;
+  font-size: x-large;
   font-weight: bold;
+  text-decoration: none;
+  /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
+  flex-grow: 1;
+  text-align: center;
 }
 
-li.card-link-li:not(:last-child) { 
-  margin-bottom: 5px;  
+.card-link-button {
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .card {
   width: 100%;
   padding: 20px;
   border: 1px solid black;
-  box-shadow: 4px 4px 0 black;
+  box-shadow: 5px 5px 0 black;
   display: flex;
   margin-bottom: 50px;
 }
@@ -112,14 +126,9 @@ li.card-link-li:not(:last-child) {
   .content {
     margin: 20px 10px;
   }
-
-  .card-links {
-    margin: 50px 30px;
-  }
-
+  
   .card {
     padding: 10px;
-    margin-bottom: 20px;
     flex-direction: column;
   }
 
