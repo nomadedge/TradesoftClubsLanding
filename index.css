@@ -59,6 +59,18 @@ html {
   background-size: cover;
 }
 
+#tabletop-club-link {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/TabletopClub.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#library-club-link {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/LibraryClub.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .card-link {
   color: white;
   font-size: x-large;
