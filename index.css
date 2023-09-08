@@ -88,8 +88,6 @@ html {
 .card {
   width: 100%;
   padding: 20px;
-  border: 1px solid black;
-  box-shadow: 5px 5px 0 black;
   display: flex;
   margin-bottom: 50px;
 }
@@ -170,5 +168,29 @@ html {
   .card-info {
     margin-right: 0px;
     margin-bottom: 20px;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+  }
+
+  .card {
+    color: black;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 black;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+  }
+
+  .card {
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 5px 0 whitesmoke;
   }
 }
