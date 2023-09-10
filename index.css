@@ -5,6 +5,10 @@
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+:root {
+  color-scheme: light dark;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -172,25 +176,15 @@ html {
 }
 
 @media (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-  }
-
   .card {
-    color: black;
     border: 1px solid black;
     box-shadow: 5px 5px 0 black;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: black;
-  }
-
   .card {
-    color: whitesmoke;
-    border: 1px solid whitesmoke;
-    box-shadow: 5px 5px 0 whitesmoke;
+    border: 1px solid white;
+    box-shadow: 5px 5px 0 white;
   }
 }
