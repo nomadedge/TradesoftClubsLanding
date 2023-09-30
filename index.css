@@ -75,6 +75,18 @@ html {
   background-size: cover;
 }
 
+#quiz-club-link {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/QuizClub.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#pingpong-club-link {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/PingpongClub.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .card-link {
   color: white;
   font-size: x-large;
