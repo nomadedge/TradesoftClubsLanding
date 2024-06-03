@@ -1,2 +1,2 @@
 # Tradesoft Clubs Landing
-Landing page for a variety of TradeSoft clubs.
+Landing page for a variety of Tradesoft clubs.
