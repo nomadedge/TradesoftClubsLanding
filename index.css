@@ -81,8 +81,8 @@ html {
   background-size: cover;
 }
 
-#pingpong-club-link {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/PingpongClub.jpg);
+#table-tennis-club-link {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/TableTennisClub.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -106,6 +106,7 @@ html {
   padding: 20px;
   display: flex;
   margin-bottom: 50px;
+  border-radius: 10px;
 }
 
 .card-info {
