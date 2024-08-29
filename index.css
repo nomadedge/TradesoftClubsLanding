@@ -16,7 +16,7 @@ html {
 .header {
   width: 100%;
   display: flex;
-  background-color: royalblue;
+  background-color: #7f74ff;
   padding: 50px;
 }
 
@@ -40,49 +40,49 @@ html {
 }
 
 #speaking-clib-link {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/SpeakingClub.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/SpeakingClub.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #english-clib-link {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/EnglishClub.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/EnglishClub.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #volleyball-club-link {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/VolleyballClub.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/VolleyballClub.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #running-club-link {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/RunningClub.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/RunningClub.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #tabletop-club-link {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/TabletopClub.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/TabletopClub.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #library-club-link {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/LibraryClub.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/LibraryClub.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #quiz-club-link {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/QuizClub.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/QuizClub.jpg);
   background-position: center;
   background-size: cover;
 }
 
 #pingpong-club-link {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/PingpongClub.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/PingpongClub.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -154,7 +154,7 @@ html {
   width: 100%;
   padding: 20px;
   display: flex;
-  background-color: green;
+  background-color: #75ccc2;
 }
 
 .author-info {
@@ -175,7 +175,7 @@ html {
   .content {
     margin: 20px 10px;
   }
-  
+
   .card {
     padding: 10px;
     flex-direction: column;
