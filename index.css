@@ -45,6 +45,12 @@ html {
   background-size: cover;
 }
 
+#literature-clib-link {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/LiteratureClub.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 #english-clib-link {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/EnglishClub.jpg);
   background-position: center;
